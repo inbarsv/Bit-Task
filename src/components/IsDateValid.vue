@@ -8,6 +8,7 @@
 <script>
 export default {
     name: 'IsDateValid',
+    description: 'Checks if the input is of type "Date" and if its value is valid',
     methods: {
         isDateValid(date) {
             if (Object.prototype.toString.call(date) === '[object Date]') {

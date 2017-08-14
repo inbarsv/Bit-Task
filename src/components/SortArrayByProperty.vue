@@ -1,13 +1,14 @@
-<template>
+ <template>
   <div>
     <h1>Test Component</h1>
-  
+    a
   </div>
 </template>
 
 <script>
 export default {
   name: 'SortArrayByProperty',
+  description: 'Sorts an object array by a property, including nested properties',
   methods: {
     sortObjectArray(obj, property) {
       obj.sort((a, b) => {

@@ -7,7 +7,8 @@ om<template>
 
 <script>
 export default {
-  name: 'GetRandomInteger',
+  name: 'GetRandomInteger', 
+  description: 'Returns a random integer from a given range',
   methods: {
     getRandomInteger(min, max) {
       return max >= min ? Math.floor(Math.random() * (max - min + 1)) + min : undefined;

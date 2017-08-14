@@ -7,6 +7,7 @@
 <script>
 export default {
     name: 'CapitalizeString',
+    description: 'Capitalizes an input string',
     methods: {
         capitalizeString(string) {
             if (!string) {

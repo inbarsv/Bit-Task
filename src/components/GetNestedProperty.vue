@@ -8,6 +8,7 @@
 <script>
 export default {
     name: 'GetNestedProperty',
+    description: 'Returns value of a given property, including nested properties',
     methods: {
         getNestedProperty(obj, property) {
             if (obj === undefined || typeof property !== 'string') return undefined;
